@@ -1,12 +1,10 @@
 body {
   font-size: 20px;
-  background-color: purple;
-}
-
-button {
-  background: #74bbc7;
-  border: 0;
-  padding: 10px 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(180, 42, 65),
+    rgb(150, 50, 170)
+  );
 }
 
 #menu-list {
@@ -20,9 +18,8 @@ button {
 li {
   display: inline-block;
   vertical-align: middle;
-
-  margin-right: 25px;
-  width: 260px;
+  margin-right: 15px;
+  width: 265px;
   text-align: center;
   border: 2px solid #ffc600;
   background-color: #ffc600;
