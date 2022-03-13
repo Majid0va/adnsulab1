@@ -29,17 +29,17 @@ li a {
   color: black;
 }
 
-.wrapper {
+.container {
   display: grid;
   grid-gap: 20px;
 }
-.top {
+.column1 {
   display: grid;
   justify-content: space-between;
   grid-gap: 20px;
   grid-template-columns: 10px 10px 10px;
 }
-.hero {
+.header {
   background-color: white;
   height: 400px;
   padding: 50px;
@@ -51,12 +51,12 @@ li a {
   border: 2px solid white;
   width: 900px;
 }
-.hero h1,
+.header h1,
 p {
   border: 2px solid #ffc600;
   background-color: #ffc600;
 }
-.hero p {
+.header p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .cta {

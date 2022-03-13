@@ -2,19 +2,19 @@
   --yellow: #ffc600;
   --direction: right;
 }
-.gallery1 .gallery2 {
+.image1 .gallery2 {
   display: flex;
 }
-.gallery img {
+.images img {
   width: 17%;
   height: auto;
   margin: 10px 20px;
 }
-.gallery h2 {
+.images h2 {
   text-align: center;
 }
-.gallery h2:before,
-.gallery h2:after {
+.images h2:before,
+.images h2:after {
   display: block;
   content: "";
   height: 10px;
@@ -24,6 +24,6 @@
     transparent
   );
 }
-.gallery h2:after {
+.images h2:after {
   --direction: right;
 }
